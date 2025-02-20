@@ -33,12 +33,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Generalidades de las buenas prácticas agrícolas',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Calidad en el sector agrícola',
             hash: 't_1_1',
           },
         ],
@@ -49,6 +49,13 @@ export default {
         numero: '2',
         titulo: 'Tema 2',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Calidad en el sector agrícola',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
