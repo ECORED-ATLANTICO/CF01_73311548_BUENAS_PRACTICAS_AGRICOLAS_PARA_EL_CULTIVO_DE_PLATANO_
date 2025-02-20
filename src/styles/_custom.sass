@@ -1,15 +1,59 @@
+.banner-principal
+  overflow: hidden
+  background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
+  border-radius: 26px
+
+  &__info
+    padding-top: 48px !important
+    padding-bottom: 78px !important
+    padding-left: 42px !important
+    padding-right: 42px !important
+
+
+@media (min-width: 426px)
+  .banner-principal
+    background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+    padding-right: 120px
+
+@media (min-width: 1023px)
+ .banner-principal
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+    padding-right: 0
+
+.banner-principal .banner-principal__info
+  padding-left: 24px !important
+  padding-right: 24px !important
+  padding-bottom: 48px !important
+
+.banner-principal .tarjeta
+  background-color: unset
+  background-image: none !important
+
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 80%
+    left: 0
+    width: 200px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 0
+    right: 0
+    width: 100px
 
+.banner-principal__row 
+  .banner-principal__img
+    width: 400px
+    padding-bottom: 0 !important
+
+@media (min-width: 1025px)
+  .banner-principal__row .banner-principal__img
+    width: 470px
 
 @keyframes float1
   0%
@@ -19,11 +63,9 @@
     transform: translateY(0px)
   
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
