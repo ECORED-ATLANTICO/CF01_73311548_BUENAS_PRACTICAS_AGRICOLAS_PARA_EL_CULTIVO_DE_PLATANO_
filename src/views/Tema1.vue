@@ -91,7 +91,52 @@
               p La inocuidad de los alimentos se fundamenta en la capacidad de ofrecer productos sanos a los consumidores, lo cual se logra mediante el adecuado desarrollo de las prácticas productivas. Estas deben orientarse a la reducción de riesgos físicos, químicos y biológicos que puedan afectar la salud humana.
           p <strong>Bajo este principio, todas las estrategias de producción de alimentos deben estar enfocadas en los siguientes objetivos:</strong>
 
-          
+      .row.justify-content-center.align-items-center.px-3.py-5.mb-3.mb-lg-5.factores-slider
+        .col-xl-9.mb-3.mb-lg-0
+          SlyderF(columnas="col-lg-6")
+            .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
+              .row.justify-content-center.mb-3
+                .col-4
+                  img.factores-slider__icon(src='@/assets/curso/temas/tema1/prevencion.svg' alt='Ilustacion de acompañamiento')
+              .factores-slider__title-wrapper  
+                h3.factores-slider__title Prevenir
+              p.mb-0.text-center Prevenir la materialización de los riesgos de contaminación alimenticia y disminuir de manera constante la probabilidad de que esta ocurra. Los riesgos correspondientes a la contaminación alimenticia, son aquellos originados en la producción primaria, que pueden producir Enfermedades de Transmisión Alimentaria (ETA), la prevención se logra mediante el desarrollo de programas y actividades de control.
+
+            .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
+              .row.justify-content-center.mb-3
+                .col-4
+                  img.factores-slider__icon(src='@/assets/curso/temas/tema1/checklist.svg' alt='Ilustacion de acompañamiento')
+              .factores-slider__title-wrapper  
+                h3.factores-slider__title Desarrollar
+              p.text-center Desarrollar y validar las guías de Buenas Prácticas Agrícolas conformes a las necesidades del productor y de la inocuidad, es importante que cada guía desarrollada esté clasificada según el tipo de producto, y de ser posible, ser específicas por cada producto.
+
+            .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
+              .row.justify-content-center.mb-3
+                .col-4
+                  img.factores-slider__icon(src='@/assets/curso/temas/tema1/promocion.svg' alt='Ilustacion de acompañamiento')
+              .factores-slider__title-wrapper  
+                h3.factores-slider__title Diseñar
+              p.text-center Diseñar y ejecutar programas de divulgación, capacitación y sensibilización para todo el personal de la finca o sistema de producción, que estén orientados a la manipulación higiénica de los alimentos, desde la producción primaria, hasta el momento en que llega al consumidor final.
+
+            .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
+              .row.justify-content-center.mb-3
+                .col-4
+                  img.factores-slider__icon(src='@/assets/curso/temas/tema1/11.svg' alt='Ilustacion de acompañamiento')
+              .factores-slider__title-wrapper  
+                h3.factores-slider__title Implementar
+              p.mb-0.text-center Diseñar e implementar un sistema que permita trazar a los productos a través todas las actividades de la producción agrícola, es decir, un sistema que permita comprobar qué cambios son efectuados durante cada actividad, y en qué momento; con la finalidad de poder establecer cuándo, y dónde, se presenta un riesgo de contaminación y poder controlarlo. Este sistema debe ser diseñado acorde a las necesidades específicas de cada producto.
+
+            .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
+              .row.justify-content-center.mb-3
+                .col-4
+                  img.factores-slider__icon(src='@/assets/curso/temas/tema1/protocolo.svg' alt='Ilustacion de acompañamiento')
+              .factores-slider__title-wrapper  
+                h3.factores-slider__title Comunicar
+              p.text-center Desarrollar e implementar un sistema de manejo de la información, que permita comunicar al productor y los demás actores involucrados en la cadena agroalimentaria, sobre posibles problemas o accidentes que puedan comprometer la inocuidad del alimento.
+            
+        .d-none.d-xl-block.col-xl-3
+          figure
+            img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen de acompañamiento')(data-aos="fade-up")
 
 
 
