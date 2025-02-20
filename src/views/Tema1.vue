@@ -66,7 +66,7 @@
       Separador
 
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
-        span.banana-title La inocuidad de los alimentos
+        span.banana-title.banana-title--1 La inocuidad de los alimentos
 
       p La inocuidad garantiza al consumidor que el producto adquirido no afectará su salud y, además, cumple con estándares de calidad. Esto implica que sus características internas y externas lo convierten en una opción superior en comparación con otros productos, como aquellos cultivados sin seguir los lineamientos de las Buenas Prácticas Agrícolas (BPA).
       
@@ -91,7 +91,7 @@
               p La inocuidad de los alimentos se fundamenta en la capacidad de ofrecer productos sanos a los consumidores, lo cual se logra mediante el adecuado desarrollo de las prácticas productivas. Estas deben orientarse a la reducción de riesgos físicos, químicos y biológicos que puedan afectar la salud humana.
           p <strong>Bajo este principio, todas las estrategias de producción de alimentos deben estar enfocadas en los siguientes objetivos:</strong>
 
-      .row.justify-content-center.align-items-center.px-3.py-5.mb-3.mb-lg-5.factores-slider
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider
         .col-xl-9.mb-3.mb-lg-0
           SlyderF(columnas="col-lg-6")
             .tarjeta.tarjeta--terciario-t20.p-4.rounded-3
@@ -138,12 +138,55 @@
           figure
             img(src='@/assets/curso/temas/tema1/12.png', alt='Imagen de acompañamiento')(data-aos="fade-up")
 
+      h3(data-aos='zoom-in-right').mb-3
+        span.banana-title.banana-title--2 Inocuidad en el plátano:
+      p Los riesgos químicos que pueden afectar la calidad del plátano provienen, en su mayoría, del uso de plaguicidas y del manejo inadecuado de sus residuos. En muchos casos, la aplicación de plaguicidas es necesaria para prevenir o controlar la presencia de insectos que afectan la integridad del cultivo. Sin embargo, el uso de productos químicos no es la única alternativa, y su aplicación inadecuada puede generar residuos que comprometen la calidad del producto.
 
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-lg-5.mb-4.mb-lg-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/fumigacion.jpg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Para el control de insectos en el cultivo de plátano, una opción efectiva es el control biológico de plagas, que consiste en introducir voluntariamente especies de insectos que sean enemigos naturales de las plagas sin representar un riesgo para el cultivo. Por ejemplo, cuando un cultivo es atacado por gusanos, se pueden emplear ciertas especies de arañas para combatirlos de manera natural.
 
+      .row.justify-content-center.mb-3.mb-lg-4
+        .col-6.col-md-3.align-content-center.d-none.d-lg-block(data-aos="fade-left")
+          figure
+            img.mb-3.mb-lg-4(src="@/assets/curso/temas/tema1/13.jpg", alt="Imagen decorativa")
 
+        .col-lg-9.justify-content-center.align-content-center
+          .quote-simple.bg-color-acento-botones.rounded-5.mb-3.mb-lg-4
+            p El principal problema asociado con los insecticidas químicos radica en su uso indiscriminado. Por ello, es esencial que los productores apliquen estos productos de manera racional y, si recurren al control biológico, lo hagan de forma planificada. En este contexto, la implementación de las Buenas Prácticas Agrícolas (BPA) resulta crucial para minimizar los riesgos y garantizar la calidad e inocuidad del plátano.
 
+          p <strong>A continuación, se presentan algunos de los principales riesgos en la producción de plátano:</strong>
 
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--terciario-t10")
+            .row.justify-content-center(titulo="Microbiológicos")
+              .col-lg-8
+                .align-content-center
+                  p Desde épocas prehistóricas, la desecación, o secado al aire libre, se ha utilizado para eliminar la humedad de los alimentos, impidiendo el crecimiento de microorganismos que causan su descomposición. Frutas, carnes, pescados y semillas se exponían al sol y al viento para reducir su contenido de agua, prolongando así su vida útil. Esta técnica, sencilla pero efectiva, permitió a las primeras civilizaciones almacenar excedentes de alimentos para épocas de escasez.
+              .col-lg-4
+                figure
+                  img.rounded-5(src='@/assets/curso/temas/tema1/ripe-bananas.jpg', alt='Ilustración decorativa')
+            .row.justify-content-center(titulo="Microorganismos")
+              .col-lg-6
+                .align-content-center
+                  p Los microorganismos que afectan al plátano son principalmente hongos y bacterias, los cuales, por lo general, no representan un riesgo significativo, ya que tienden a permanecer en la superficie de la cáscara. Sin embargo, los hongos pueden intentar penetrar hasta la pulpa, lo que requiere la atención del productor para implementar medidas de control adecuadas.
+              .col-lg-4
+                figure
+                  img.rounded-5(src='@/assets/curso/temas/tema1/15.jpg', alt='Ilustración decorativa')
+              .col-lg-10
+                p.mt-2 La correcta aplicación de las Buenas Prácticas Agrícolas (BPA) es fundamental para preservar la integridad de la cáscara del plátano. Cuando esta se mantiene intacta, se puede afirmar que la pulpa está libre de microorganismos, garantizando así la calidad del producto.
+                
+            .row.justify-content-center(titulo="Subproductos")
+              .col-lg-6
+                .align-content-center
+                  p El plátano se considera un producto de bajo riesgo sanitario debido a que la mayoría de sus subproductos, que finalmente llegan al consumidor, se elaboran mediante procesos de cocción, horneado o fritura. Estos métodos someten el plátano a altas temperaturas que superan los límites de resistencia de la mayoría de los microorganismos. Por lo tanto, la preparación del subproducto elimina las posibles amenazas adquiridas previamente.
+              .col-lg-4
+                figure
+                  img.rounded-5(src='@/assets/curso/temas/tema1/14.png', alt='Ilustración decorativa')
 
+      Separador
 
 
 
