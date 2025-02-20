@@ -43,25 +43,94 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Implementación de las BPA ',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Calidad en el sector agrícola',
-            hash: 't_1_1',
+            numero: '2.1',
+            titulo: 'Ventajas y desventajas de la implementación de las BPA',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Importancia de la implementación de las BPA',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Mapeo de la finca',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Entes certificadores de las BPA',
+            hash: 't_2_4',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Requisitos para la implementación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Instalaciones ',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Materias primas e insumos agrícolas',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Recomendaciones para tener en cuenta en el uso del agua',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Suelos',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Semillas',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Agroquímicos',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: '3.7.	Abonos orgánicos',
+            hash: 't_3_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Peligros, controles y manejo de residuos líquidos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Peligros y controles de los residuos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Plan de manejo ambiental',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
