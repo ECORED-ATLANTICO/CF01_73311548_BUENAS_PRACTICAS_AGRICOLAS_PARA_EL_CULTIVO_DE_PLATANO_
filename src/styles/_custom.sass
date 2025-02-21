@@ -203,3 +203,60 @@ figcaption
   width: 110px
   margin: 0 auto
   
+// Tabla
+
+.tabla-peligros
+  border-collapse: collapse;
+  overflow-x: scroll
+
+  thead
+    background-color: $color-terciario
+    th
+      padding: 15px 20px
+      font-size: 18px
+      font-weight: 700
+  
+  td, th 
+    border: 1px solid $color-primario;
+    padding: 15px 20px
+  
+//Checklist
+
+.check-list
+  ul
+    margin-bottom: 0
+  li
+    margin-left: 20px
+    position: relative
+    &::before
+      content: url('../assets/curso/temas/tema4/4.svg')
+      position: absolute
+      left: -20px
+      top: 0
+
+.hr-continuo 
+  border-color: #AFAFAF
+  background: transparent
+  margin-bottom: 16px
+  margin-top: 16px
+  opacity: 1
+
+.tabs-residuos
+  .tabs-b__header
+    margin-bottom: 2rem !important
+  .tabs-b__tab
+    background-color: #FCFCFC
+    border-bottom: 3px solid #E8E8E8
+    border-right: 3px solid #E8E8E8
+    transition: border 0.3s ease-in-out
+
+    &.tabs-b__tab--active
+      border-bottom: none
+  
+  .tabs-b__tab__icon
+    img 
+      height: 50px
+  
+
+.m-footer
+  margin-bottom: 6rem

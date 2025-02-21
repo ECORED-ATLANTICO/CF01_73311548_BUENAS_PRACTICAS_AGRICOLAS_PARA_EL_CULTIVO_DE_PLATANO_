@@ -300,7 +300,7 @@
                 h3 Protección y conservación de ecosistemas
                 p Desarrollar y aplicar prácticas orientadas a la preservación y restauración de ecosistemas naturales, asegurando su sostenibilidad y la continuidad de los servicios ambientales que brindan. (Ministerio de Agricultura y Desarrollo Rural, 2004, p. 7).
             
-
+      .m-footer
 
 
 
