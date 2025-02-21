@@ -106,7 +106,7 @@ figcaption
   &--2
     background-image: url('../assets/curso/temas/tema1/16.svg')
 
-.factores-slider
+.factores-slider, .custom-slider
   &__icon 
     max-height: 93px
   
@@ -143,6 +143,47 @@ figcaption
     &.pe-3
       margin-right: 7px
 
+.custom-slider
+  &__tarjeta
+    position: relative
+    overflow: visible
+    &--1::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/18.svg')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--2::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/19.svg')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--3::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/20.svg')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--4::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/21.svg')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+    &--5::before
+      position: absolute
+      content: url('../assets/curso/temas/tema1/22.svg')
+      top: -80px
+      left: 50%
+      transform: translateX(-50%)
+
+    
+
+  .slyder-f__slyde
+    padding-top: 80px
+
+
 @media (min-width: 1025px)
   .factores-slider
     .slyder-f
@@ -153,12 +194,11 @@ figcaption
 .acordion__accion__btn--a
   background-color: $color-terciario
 
-
 // Width
 .width-93
   width: 93px
   margin: 0 auto
-  
+
 .width-110
   width: 110px
   margin: 0 auto

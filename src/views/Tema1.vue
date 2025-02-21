@@ -201,6 +201,28 @@
           p Estos modelos de prevención son requisitos en muchos mercados para la realización de intercambios comerciales. Además, se exige a los productores garantizar un uso eficiente y responsable de los insumos agrícolas.
           p Los sistemas de protección sanitaria están conformados por acciones dirigidas a controlar las condiciones de salubridad del alimento. Para lograrlo, se recomienda tener en cuenta las siguientes medidas:
 
+      .mt-5.custom-slider
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
+            h3.text-center.mt-5 Productos agroquímicos
+            p.mb-0.text-center Garantizar el uso exclusivo de productos agroquímicos avalados por el Instituto Colombiano Agropecuario (ICA), que cuenten con registro oficial de comercialización y venta, asegurando su legalidad y seguridad en la producción. 
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--2
+            h3.text-center.mt-5 Técnicas de control
+            p.text-center Fomentar el uso de técnicas complementarias para el manejo de plagas y enfermedades fitosanitarias, priorizando la prevención. Estas técnicas deben incluir planes de diagnóstico, implementación de manejo integrado de plagas y estrategias de control biológico, genético, cultural y físico.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--3
+            h3.text-center.mt-5 Programas de monitoreo
+            p.text-center Definir e implementar programas de monitoreo sistemático para el control de plagas y enfermedades, utilizando cronogramas que soporte la planificación. Es fundamental establecer especificaciones técnicas y medidas de seguridad que respalden la efectividad del sistema.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--4
+            h3.text-center.mt-5 Plan de vigilancia
+            p.mb-0.text-center Desarrollar un plan o también llamado, sistema de vigilancia epidemiológica que garantice el cumplimiento de normativas sobre control de plagas y enfermedades, asegurando la aplicación de técnicas y políticas establecidas.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
+            h3.text-center.mt-5 Niveles de tratamiento
+            p.text-center Determinar y aplicar niveles de tratamiento específicos para cada tipo de plaga y enfermedad dentro de las actividades productivas, asegurando un manejo eficiente y sostenible.
+          
       Separador
 
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
@@ -211,7 +233,7 @@
           p Cuando la actividad agrícola se desarrolla bajo los lineamientos de las Buenas Prácticas Agrícolas (BPA), debe orientarse hacia una producción responsable, promoviendo un compromiso integral con la protección y el manejo sostenible del medio ambiente. Este enfoque además de responder a la necesidad de preservar los recursos naturales, también se alinea con las políticas nacionales de producción limpia, cuyo objetivo es minimizar el impacto ambiental y optimizar el uso de insumos.
           p Para garantizar una producción sostenible y amigable con el entorno, es fundamental implementar estrategias que fomenten el equilibrio entre la productividad agrícola y la conservación de los ecosistemas. Entre las principales estrategias para la producción limpia se destacan las siguientes:
 
-        .col-10.col-md-8.col-lg-3.mb-4.mb-lg-0
+        .col-10.col-sm-6.col-lg-3.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/24.png', alt='Ilustración decorativa')(data-aos="fade-up")
 
