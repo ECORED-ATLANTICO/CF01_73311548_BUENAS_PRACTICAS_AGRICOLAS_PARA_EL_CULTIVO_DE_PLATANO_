@@ -150,13 +150,13 @@
           p.mb-0 Para el control de insectos en el cultivo de plátano, una opción efectiva es el control biológico de plagas, que consiste en introducir voluntariamente especies de insectos que sean enemigos naturales de las plagas sin representar un riesgo para el cultivo. Por ejemplo, cuando un cultivo es atacado por gusanos, se pueden emplear ciertas especies de arañas para combatirlos de manera natural.
 
       .row.justify-content-center.mb-3.mb-lg-4
-        .col-6.col-md-3.align-content-center.d-none.d-lg-block(data-aos="fade-left")
+        .col-6.col-md-3.align-content-center.d-none.d-xl-block(data-aos="fade-left")
           figure
             img.mb-3.mb-lg-4(src="@/assets/curso/temas/tema1/13.jpg", alt="Imagen decorativa")
 
-        .col-lg-9.justify-content-center.align-content-center
-          .quote-simple.bg-color-acento-botones.rounded-5.mb-3.mb-lg-4
-            p El principal problema asociado con los insecticidas químicos radica en su uso indiscriminado. Por ello, es esencial que los productores apliquen estos productos de manera racional y, si recurren al control biológico, lo hagan de forma planificada. En este contexto, la implementación de las Buenas Prácticas Agrícolas (BPA) resulta crucial para minimizar los riesgos y garantizar la calidad e inocuidad del plátano.
+        .col-xl-9.justify-content-center.align-content-center
+          .py-4.px-5.bg-color-acento-botones.rounded-4.mb-3.mb-lg-4
+            p.mb-0 El principal problema asociado con los insecticidas químicos radica en su uso indiscriminado. Por ello, es esencial que los productores apliquen estos productos de manera racional y, si recurren al control biológico, lo hagan de forma planificada. En este contexto, la implementación de las Buenas Prácticas Agrícolas (BPA) resulta crucial para minimizar los riesgos y garantizar la calidad e inocuidad del plátano.
 
           p <strong>A continuación, se presentan algunos de los principales riesgos en la producción de plátano:</strong>
 
@@ -165,14 +165,14 @@
               .col-lg-8
                 .align-content-center
                   p Desde épocas prehistóricas, la desecación, o secado al aire libre, se ha utilizado para eliminar la humedad de los alimentos, impidiendo el crecimiento de microorganismos que causan su descomposición. Frutas, carnes, pescados y semillas se exponían al sol y al viento para reducir su contenido de agua, prolongando así su vida útil. Esta técnica, sencilla pero efectiva, permitió a las primeras civilizaciones almacenar excedentes de alimentos para épocas de escasez.
-              .col-lg-4
+              .col-lg-4.d-none.d-lg-block
                 figure
                   img.rounded-5(src='@/assets/curso/temas/tema1/ripe-bananas.jpg', alt='Ilustración decorativa')
             .row.justify-content-center(titulo="Microorganismos")
               .col-lg-6
                 .align-content-center
                   p Los microorganismos que afectan al plátano son principalmente hongos y bacterias, los cuales, por lo general, no representan un riesgo significativo, ya que tienden a permanecer en la superficie de la cáscara. Sin embargo, los hongos pueden intentar penetrar hasta la pulpa, lo que requiere la atención del productor para implementar medidas de control adecuadas.
-              .col-lg-4
+              .col-lg-4.d-none.d-lg-block
                 figure
                   img.rounded-5(src='@/assets/curso/temas/tema1/15.jpg', alt='Ilustración decorativa')
               .col-lg-10
@@ -182,13 +182,102 @@
               .col-lg-6
                 .align-content-center
                   p El plátano se considera un producto de bajo riesgo sanitario debido a que la mayoría de sus subproductos, que finalmente llegan al consumidor, se elaboran mediante procesos de cocción, horneado o fritura. Estos métodos someten el plátano a altas temperaturas que superan los límites de resistencia de la mayoría de los microorganismos. Por lo tanto, la preparación del subproducto elimina las posibles amenazas adquiridas previamente.
-              .col-lg-4
+              .col-lg-4.d-none.d-lg-block
                 figure
                   img.rounded-5(src='@/assets/curso/temas/tema1/14.png', alt='Ilustración decorativa')
 
       Separador
 
+      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+        span.banana-title.banana-title--1 Protección sanitaria
+      
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+        .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/temas/tema1/17.png', alt='Ilustración decorativa')(data-aos="fade-up")
 
+        .col-lg-8
+          p Toda empresa de producción del sector agrícola que implemente las Buenas Prácticas Agrícolas (BPA) debe contar con estrategias y modelos para la prevención y el control de problemas fitosanitarios, asegurando el adecuado manejo de los productos conforme a las regulaciones de salubridad.
+          p Estos modelos de prevención son requisitos en muchos mercados para la realización de intercambios comerciales. Además, se exige a los productores garantizar un uso eficiente y responsable de los insumos agrícolas.
+          p Los sistemas de protección sanitaria están conformados por acciones dirigidas a controlar las condiciones de salubridad del alimento. Para lograrlo, se recomienda tener en cuenta las siguientes medidas:
+
+      Separador
+
+      h3(data-aos='zoom-in-right').mb-4.mb-lg-5
+        span.banana-title.banana-title--1 Sostenibilidad ambiental
+
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+        .col-lg-9
+          p Cuando la actividad agrícola se desarrolla bajo los lineamientos de las Buenas Prácticas Agrícolas (BPA), debe orientarse hacia una producción responsable, promoviendo un compromiso integral con la protección y el manejo sostenible del medio ambiente. Este enfoque además de responder a la necesidad de preservar los recursos naturales, también se alinea con las políticas nacionales de producción limpia, cuyo objetivo es minimizar el impacto ambiental y optimizar el uso de insumos.
+          p Para garantizar una producción sostenible y amigable con el entorno, es fundamental implementar estrategias que fomenten el equilibrio entre la productividad agrícola y la conservación de los ecosistemas. Entre las principales estrategias para la producción limpia se destacan las siguientes:
+
+        .col-10.col-md-8.col-lg-3.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/temas/tema1/24.png', alt='Ilustración decorativa')(data-aos="fade-up")
+
+      .row.justify-content-center
+        .col-xl-10
+          PasosA.color-acento-contenido.mb-5(tipo="n")
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-sm-6.col-lg-7.mb-4.mb-md-0
+                h3 Cumplimiento de guías ambientales
+                p Garantizar que la actividad productiva se desarrolle conforme a las medidas y recomendaciones establecidas en las guías ambientales específicas de cada subsector agrícola, promoviendo así prácticas sostenibles y responsables.
+              .col-md-5
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/25.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-md-5.mb-4.mb-md-0
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/26.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+  
+              .col-sm-6.col-lg-7
+                h3 Uso eficiente del recurso hídrico
+                p Implementar estrategias para el aprovechamiento racional del agua en las actividades agrícolas, ya sea a través de procesos de capacitación y sensibilización o mediante la adopción de tecnologías innovadoras que optimicen su uso y reduzcan el desperdicio.
+                
+
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-sm-6.col-lg-7.mb-4.mb-md-0
+                h3 Manejo y disposición de residuos agroquímicos
+                p Establecer mecanismos adecuados para la gestión y disposición final de residuos derivados del uso de agroquímicos, asegurando el cumplimiento de la legislación ambiental colombiana y minimizando el impacto negativo sobre los ecosistemas.
+            
+              .col-md-5
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/27.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-md-5.mb-4.mb-md-0
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/28.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+              
+              .col-sm-6.col-lg-7
+                h3 Sistema de indicadores de gestión ambiental
+                p Definir e implementar un sistema basado en indicadores de gestión ambiental que permita el seguimiento, control y planificación de la Política de Producción más Limpia, facilitando la toma de decisiones fundamentadas en datos objetivos.
+
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-sm-6.col-lg-7.mb-4.mb-md-0
+                h3 Manejo y disposición de residuos agroquímicos
+                p Establecer mecanismos adecuados para la gestión y disposición final de residuos derivados del uso de agroquímicos, asegurando el cumplimiento de la legislación ambiental colombiana y minimizando el impacto negativo sobre los ecosistemas.
+            
+              .col-md-5
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/29.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+
+            .row.align-items-center.justify-content-center.py-lg-5
+              .col-md-5.mb-4.mb-md-0
+                .px-5.py-3.bg-color-acento-contenido.rounded-4
+                  figure
+                    img.width-110(src='@/assets/curso/temas/tema1/30.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
+
+              .col-sm-6.col-lg-7
+                h3 Protección y conservación de ecosistemas
+                p Desarrollar y aplicar prácticas orientadas a la preservación y restauración de ecosistemas naturales, asegurando su sostenibilidad y la continuidad de los servicios ambientales que brindan. (Ministerio de Agricultura y Desarrollo Rural, 2004, p. 7).
+            
 
 
 
