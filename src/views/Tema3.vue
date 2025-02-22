@@ -185,7 +185,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-3
-            h5 Tabla 6.
+            h5 Tabla 1.
             span <em>Peligros y controles de los equipos, utensilios y herramientas.</em>
         .tabla-peligros.mb-4
           table.text-center
@@ -202,11 +202,102 @@
                 td Almacenar separadamente los fertilizantes de los insumos para evitar la contaminación entre productos.
               tr
                 td Mala lectura de los equipos por la inadecuada calibración.
-                td 	Realizar mantenimiento preventivo a los equipos para evitar malas lecturas y la descomposición de estos..
+                td Realizar mantenimiento preventivo a los equipos para evitar malas lecturas y la descomposición de estos.
 
     Separador
     
+    #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.2 Instalaciones Materias primas e insumos agrícolas
       
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-lg-5.mb-4.mb-lg-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/18.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las materias primas e insumos agrícolas son fundamentales para garantizar un cultivo eficiente y seguro. En las plantaciones de plátano, el agua es un recurso esencial utilizado en la higiene de herramientas, la preparación de mezclas de agroquímicos y el lavado de instalaciones durante las etapas de cosecha y poscosecha. Para evitar riesgos de contaminación, es indispensable que el agua empleada esté libre de microorganismos patógenos de origen fecal y sustancias químicas perjudiciales, como metales pesados (plomo), jabones y detergentes. Garantizar su calidad contribuye a la seguridad del cultivo, la inocuidad del producto y la sostenibilidad del proceso productivo.
+
+    Separador
+
+    #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.3 Recomendaciones para tener en cuenta en el uso del agua
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-xl-block.col-lg-1
+        figure
+          img(src='@/assets/curso/temas/tema3/19.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-lg-11
+        p El agua es un recurso esencial en la agricultura, ya que influye directamente en el crecimiento y desarrollo de los cultivos. Su uso adecuado garantiza la productividad, y además, contribuye a la sostenibilidad del ecosistema agrícola.
+        p.mb-3.mb-xl-0 En este contexto, la irrigación es fundamental, al permitir el suministro controlado de agua a las plantas, asegurando que reciban la cantidad necesaria para su óptimo desarrollo. Para mejorar la eficiencia en su uso y evitar desperdicios, se deben considerar las siguientes recomendaciones:
+
+
+      .mt-5.custom-slider
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--6
+            h3.text-center.mt-5 Calidad del agua
+            p.mb-0.text-center El agua utilizada en las labores de riego y poscosecha debe cumplir con estándares mínimos de calidad, considerando parámetros como pH, dureza y conductividad. Es recomendable documentar los resultados de estas pruebas para su uso en evaluaciones posteriores.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--7
+            h3.text-center.mt-5 Procedencia
+            p.text-center Conocer la fuente del agua utilizada en la unidad productiva es esencial para evaluar su calidad y prevenir posibles contaminaciones.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--8
+            h3.text-center.mt-5 Agua potable
+            p.text-center Se debe emplear agua potable en todas las etapas de la cadena agroalimentaria, incluyendo la cosecha y la poscosecha.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--9
+            h3.text-center.mt-5 Verificación por operarios
+            p.mb-0.text-center Los trabajadores encargados del cultivo deben asegurarse de la sanidad del agua proveniente de ríos, nacederos y acueductos municipales, verificando su aptitud para el riego y otras aplicaciones agrícolas.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--10
+            h3.text-center.mt-5 Almacenamiento en tanque
+            p.text-center Los tanques de almacenamiento de agua deben mantenerse limpios y contar con la protección necesaria para evitar la contaminación por agentes químicos, físicos o biológicos.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--11
+            h3.text-center.mt-5 Prevención de contaminación
+            p.text-center Es fundamental lavar periódicamente los tanques de almacenamiento para evitar la proliferación de microorganismos y algas. Además, los equipos y utensilios utilizados en las labores agrícolas deben limpiarse con agua potable.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--12
+            h3.text-center.mt-5 Control de cloro
+            p.text-center Se debe monitorear el cloro residual en distintos puntos de abastecimiento y en los tanques de almacenamiento. Este control puede realizarse mediante un sistema de cloración para garantizar los niveles adecuados.
+
+          .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--13
+            h3.text-center.mt-5 Niveles de cloro
+            p.text-center La concentración de cloro residual en la red de distribución debe mantenerse entre 0,3 y 0,5 partes por millón (ppm). En ningún caso debe descender por debajo de 0,1 ppm, ya que esto comprometería la calidad sanitaria del agua.
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-xl-10
+        h3(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--1 Peligros y controles en el uso del agua
+
+        p Para garantizar la calidad del agua utilizada en las actividades agrícolas, es fundamental identificar los posibles riesgos asociados a su manejo y almacenamiento. La contaminación del agua puede afectar tanto el desarrollo del cultivo como la inocuidad del producto final, por lo que es necesario implementar medidas de control que reduzcan estos peligros. A continuación, se presenta una tabla con los principales riesgos relacionados con el uso del agua y las estrategias para mitigarlos.
+
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 2.
+          span <em>Peligros y controles en el uso del agua.</em>
+
+        .tabla-peligros.mb-4
+          table.text-center
+            thead(style="background-color: #7D9FFB;color: white;")
+              tr
+                th Peligro
+                th Control
+            tbody
+              tr
+                td Contaminación del agua almacenada por mala limpieza en los tanques.
+                td Lavar los tanques mínimos una vez al mes.
+              tr
+                td Contaminación microbiana por bajo valor de cloro residual en el agua.
+                td Hacer muestreo en la red de abastecimiento para ver si hay alguna falla en la tubería.
+              tr
+                td Contaminación microbiológica en los racimos de plátano por uso de agua no potable en la poscosecha.
+                td Usar en lo posible agua potable para evitar contaminación en el producto.
+
+    Separador
+
+
+
+
+
 </template>
 
 <script>
