@@ -218,7 +218,7 @@
 
     Separador
 
-    #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+    #t_3_3(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
       h3 3.3 Recomendaciones para tener en cuenta en el uso del agua
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
@@ -294,10 +294,186 @@
 
     Separador
 
+    #t_3_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.4 Suelos
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-lg-9
+        p El manejo adecuado del suelo es fundamental para garantizar la productividad y sostenibilidad del cultivo de plátano. La conservación de sus características físicas, químicas y biológicas permite optimizar el crecimiento de la planta y evitar problemas como la erosión y la saturación por el uso excesivo de fertilizantes.
+        p Los suelos ideales para el cultivo de plátano deben ser oscuros, de textura media y suelta, facilitando la penetración de las raíces y el desarrollo de la planta. Además, es esencial que presenten una porosidad entre el 45 % y el 60 %, lo que contribuye a un adecuado drenaje y retención de nutrientes.
+
+      .d-none.d-lg-block.col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema3/28.png', alt='Ilustración decorativa')(data-aos="fade-up")
+
+    .row.justify-content-center.align-items-center
+      .col-xl-10
+        h3(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--1 Propiedades químicas del suelo
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-lg-block.col-lg-3.col-xl-2
+        figure
+          img(src='@/assets/curso/temas/tema3/29.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-lg-7.col-xl-8
+        p.mb-0 El pH óptimo para el cultivo de plátano debe situarse entre 5,5 y 7,2. Niveles por debajo de este rango pueden afectar negativamente el desarrollo de la planta. Asimismo, se requiere un suelo fértil, rico en macro y microelementos esenciales para el crecimiento y la producción del cultivo.
+
+    .row.justify-content-center.align-items-center
+      .col-xl-10
+        h3(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--1 Buenas prácticas en el manejo del suelo
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-lg-block.col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema3/30.png', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-lg-7.check-list.bg-color-terciario-t10.rounded-4.p-4
+        ul.mb-1
+          li
+            span Los suelos donde se siembre plátano deben estar libres de plagas.
+        ul.mb-1
+          li
+            span Revisar los períodos de cuarentena del terreno que haya tenido moko, antes de sembrar de nuevo plátano.
+        ul.mb-1
+          li
+            span Los suelos donde se siembra plátano deben ser sueltos, con alto contenido de materia orgánica y con buen drenaje.
+        ul.mb-1
+          li
+            span Evitar que haya inundaciones donde está establecido el cultivo, puesto que la acumulación de agua destruye las raíces funcionales.
+        ul.mb-1
+          li
+            span En los suelos donde se encuentra el cultivo de plátano es aconsejable que se realicen coberturas para evitar la pérdida de nutrientes por aguas de escorrentías.
+
+    .row.justify-content-center.align-items-center
+      .col-xl-10
+        h3(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--1 Peligros y controles de los suelos
+
+        p El uso inadecuado del suelo puede comprometer su fertilidad y afectar el rendimiento del cultivo. A continuación, se presentan algunos de los principales riesgos y las estrategias recomendadas para su control.
+
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 3.
+          span <em>Peligros y controles en el uso del agua.</em>
+        .tabla-peligros.mb-4
+          table.text-center
+            thead
+              tr
+                th Peligros
+                th Controles
+            tbody
+              tr
+                td Suelos pobres que no aporten los nutrientes que necesita el cultivo.
+                td Realizar análisis de suelos antes de establecer el cultivo.
+              tr
+                td Suelos erosionados y poco fértiles por mal uso de la maquinaria.
+                td Fertilizar los suelos con materia orgánica bien compostada.
+              tr
+                td 
+                td Hacer un buen manejo del suelo utilizando técnicas agrícolas que no alteren las propiedades físicas y químicas de este recurso.
+
+    Separador
+
+    #t_3_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.5 Semillas
+
+    p Las semillas desempeñan un papel indispensable en el cultivo de plátano, ya que de su calidad depende la productividad y el éxito de la cosecha. La selección adecuada de semillas contribuye al desarrollo vigoroso de la plantación y a la obtención de frutos sanos. Para ello, es de gran importancia considerar diversos aspectos en su adquisición y manejo, garantizando así un inicio adecuado del proceso de cultivo. A continuación, se presentan algunas recomendaciones:
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.factores-slider
+      .d-none.d-xl-block.col-xl-5
+        figure
+          img(src='@/assets/curso/temas/tema3/31.png', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-xl-7.bg-platanos-image.p-4.rounded-3
+        SlyderF().bg-white.p-3.rounded-3
+          .tarjeta.p-3.rounded-3.d-flex
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/32.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Juventud y vigor
+                p.mb-0 Se recomienda emplear semillas jóvenes y vigorosas, cuya procedencia y características fenotípicas sean óptimas.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/33.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Extracción cuidadosa
+                p.mb-0 No se deben descartar las semillas provenientes de plantaciones ubicadas en laderas, pero su extracción debe realizarse con herramientas bien afiladas para evitar daños en el material vegetal.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/34.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Condiciones de los colinos
+                p.mb-0 Los colinos de plátano seleccionados deben contar con al menos tres hojas funcionales en forma de espada.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/35.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Prevención de plagas y enfermedades
+                p.mb-0 Durante la manipulación de semillas, es crucial evitar la propagación de plagas y enfermedades. Para ello, se debe limpiar cuidadosamente el material vegetal, eliminando tierra y partes dañadas.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/36.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Preservación del rizoma
+                p.mb-0 No es aconsejable dividir el rizoma para obtener varias semillas, ya que esto debilita las reservas de la planta y la expone al ataque de parásitos.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/37.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Tratamiento sanitario
+                p.mb-0 Las semillas deben estar en óptimas condiciones sanitarias y someterse a un tratamiento con desinfectantes aptos para alimentos.
+
+          .tarjeta.p-3.rounded-3.d-flex  
+            .row.align-items-center
+              .col-3.d-none.d-md-block
+                figure
+                  img.width-110(src='@/assets/curso/temas/tema3/38.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+              .col-md-9
+                h3.factores-slider__number.color-acento-contenido Protección contra patógenos
+                p.mb-0 Se recomienda sumergir las semillas en agua caliente por un tiempo breve y aplicar fungicidas e insecticidas para reducir el riesgo de plagas y enfermedades.
+        
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-xl-10
+        h3(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--1 Peligros y controles de las semillas
+
+        p El uso de semillas de baja calidad o con manejo inadecuado, puede comprometer la producción del cultivo, facilitando la propagación de enfermedades y reduciendo el rendimiento. Para mitigar estos riesgos, se deben adoptar medidas preventivas que aseguren la sanidad y viabilidad del material vegetal. La siguiente tabla presenta los principales peligros asociados al uso de semillas y las estrategias de control recomendadas.
+
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 4.
+          span <em>Peligros y controles de las semillas.</em>
+
+        .tabla-peligros.mb-4
+          table.text-center
+            thead(style="background-color: #7D9FFB;color: white;")
+              tr
+                th Peligros
+                th Controles
+            tbody
+              tr
+                td Semillas de mala calidad que pueden afectar la producción de plátano.
+                td La semilla debe ser adquirida de un proveedor confiable que realice todos los parámetros de calidad requeridos.
+              tr
+                td La semilla se puede contaminar si no se realiza la adecuación correspondiente.
+                td Desinfectar los equipos utilizados en la extracción de los colinos y cada vez que se utilicen los implementos se deben lavar para que no haya contaminación cruzada de semilla a semilla.
 
 
-
-
+    Separador
 </template>
 
 <script>
