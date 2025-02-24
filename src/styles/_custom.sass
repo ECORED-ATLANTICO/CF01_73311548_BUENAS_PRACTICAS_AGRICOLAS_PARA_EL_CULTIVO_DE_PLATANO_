@@ -389,5 +389,35 @@ figcaption
   background-position: center
   background-size: cover
 
+.retos-items
+  &__card
+    padding: 16px 30px 16px 100px
+    border-radius: 21px
+    margin-left: 20px
+    width: 100%
+    position: relative
+    &--1::before
+      content: url('../assets/curso/temas/tema2/2.svg')
+      position: absolute
+      top: 50%
+      left: 35px
+      transform: translate(-50%, -45%)
+    &--2::before
+      content: url('../assets/curso/temas/tema2/3.svg')
+      position: absolute
+      top: 50%
+      left: 35px
+      transform: translate(-50%, -45%)
+    &--3::before
+      content: url('../assets/curso/temas/tema2/4.svg')
+      position: absolute
+      top: 50%
+      left: 35px
+      transform: translate(-50%, -45%)
+
+.platano-timeline
+  .linea-tiempo-d__item__content
+    background-color: #F7FEE7
+
 .m-footer
   margin-bottom: 6rem

@@ -167,7 +167,7 @@
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-sm-6.col-lg-3.mb-3.mb-lg-0
-        .tarjeta--boton.p-4.h-100
+        .tarjeta--boton.p-4.h-100(data-aos="flip-left")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -176,7 +176,7 @@
           p.text-center.mb-0 Los equipos y herramientas deben ser de materiales resistentes, seguros para los trabajadores y garantizar la inocuidad de los productos durante su uso.
 
       .col-sm-6.col-lg-3.mb-3.mb-lg-0
-        .tarjeta--boton.p-4.h-100
+        .tarjeta--boton.p-4.h-100(data-aos="flip-left")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -185,7 +185,7 @@
           p.text-center.mb-0 Es fundamental realizar mantenimiento preventivo a equipos como termómetros, altímetros y aspersores para asegurar su correcto funcionamiento y prolongar su vida útil.
 
       .col-sm-6.col-lg-3.mb-3.mb-sm-0
-        .tarjeta--boton.p-4.h-100
+        .tarjeta--boton.p-4.h-100(data-aos="flip-left")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -194,7 +194,7 @@
           p.text-center.mb-0 Se deben llevar registros detallados de limpieza y desinfección de herramientas, especificando el desinfectante utilizado, su concentración y la persona responsable del procedimiento.
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.p-4.h-100
+        .tarjeta--boton.p-4.h-100(data-aos="flip-left")
           .row.justify-content-center.mb-3
             .col-7
               figure
