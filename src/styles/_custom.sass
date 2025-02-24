@@ -246,6 +246,39 @@ figcaption
     .slyder-f__main
       width: 84%
 
+.custom-slider-a-b
+  background-image: url('../assets/curso/temas/tema3/bg-slyder.png')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  padding: 10px 15px
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-terciario
+
+  .slyder-a__bullets
+    .slyder-a__bullets__item
+      background-color: #A1C0B2
+      border-color: #A1C0B2
+
+      &--active
+        background-color: $color-primario
+        border-color: $color-primario
+
+@media (min-width: 770px)
+  .custom-slider-a-b
+    padding: 20px 30px 0px
+
+  .custom-slider-a-b__item
+    padding: 10px 20px 5px
+
+@media (min-width: 1025px)
+  .custom-slider-a-b
+    padding-bottom: 20px
+  .custom-slider-a-b__item
+    padding: 50px 84px 30px
+
+
 .acordion__accion__btn--a
   background-color: $color-terciario
 

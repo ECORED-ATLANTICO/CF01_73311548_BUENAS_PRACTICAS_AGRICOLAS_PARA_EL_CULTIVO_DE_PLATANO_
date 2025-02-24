@@ -373,7 +373,7 @@
 
     Separador
 
-    #t_3_4(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+    #t_3_5(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
       h3 3.5 Semillas
 
     p Las semillas desempeñan un papel indispensable en el cultivo de plátano, ya que de su calidad depende la productividad y el éxito de la cosecha. La selección adecuada de semillas contribuye al desarrollo vigoroso de la plantación y a la obtención de frutos sanos. Para ello, es de gran importancia considerar diversos aspectos en su adquisición y manejo, garantizando así un inicio adecuado del proceso de cultivo. A continuación, se presentan algunas recomendaciones:
@@ -472,8 +472,140 @@
                 td La semilla se puede contaminar si no se realiza la adecuación correspondiente.
                 td Desinfectar los equipos utilizados en la extracción de los colinos y cada vez que se utilicen los implementos se deben lavar para que no haya contaminación cruzada de semilla a semilla.
 
-
     Separador
+
+    #t_3_6(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.6 Agroquímicos
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-xl-block.col-xl-2
+        figure
+          img(src='@/assets/curso/temas/tema3/40.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-xl-8
+        p El uso de agroquímicos en el cultivo de plátano es una práctica de gran importancia para el control de enfermedades e insectos, pero su manejo inadecuado puede representar riesgos significativos para la salud de los trabajadores, el medio ambiente y la calidad del producto. Por ello, es indispensable que su aplicación se realice de manera responsable, siguiendo estrictamente las normativas establecidas y adoptando medidas de seguridad que minimicen los posibles efectos adversos.
+
+        h4(data-aos='zoom-in-right').mb-4
+          span.banana-title.banana-title--2 Recomendaciones para tener en cuenta en el uso de agroquímicos
+
+        p Para garantizar una aplicación segura y eficaz de los agroquímicos en el cultivo, se deben considerar las siguientes recomendaciones:
+        
+    SlyderA(tipo="b").custom-slider-a-b.rounded-4.mb-4.mb-lg-5
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p Los agroquímicos para utilizar deben estar en los envases originales y con la etiqueta en muy buen estado, para que se puedan leer las especificaciones de cada producto con el fin de que no haya errores en su aplicación al cultivo.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/41.png', alt='female-gardener-spraying-insecticide-plant')
+
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p Los agroquímicos no deben estar vencidos y deben estar autorizados por las autoridades competentes, para Colombia es el Instituto Colombiano Agropecuario (ICA) el que otorga el certificado a este tipo de productos.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/42.png', alt='female-botanist-examining-plant-sample-quality-control-inspection-greenhouse')
+
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p El lugar destinado para el almacenamiento de agroquímicos debe estar lejos del sitio donde se clasifica y se alista el producto. El lugar de almacenamiento de plaguicidas debe ser seguro y de acceso restringido a particulares.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/43.png', alt='young-selectionist')
+
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p Es importante rotar los agroquímicos almacenados y siempre utilizar el que está por vencerse. El uso de los agroquímicos debe ser racional, siempre con miras en proteger los operarios que los manipulan y medio ambiente como la flora y la fauna.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/44.png', alt='closeup-biologist-spraying-potted-flowers-with-nutritional-fertilizes-plant-nursery')
+
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p Los equipos para aplicar los agroquímicos deben estar en buen estado y bien calibrados, se deben aplicar las dosis recomendadas por los agrónomos y técnicos agropecuarios.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/45.png', alt='researcher-takes-water-test-tube-sitting-greenhouse')
+
+      .row.align-items-center.custom-slider-a-b__item
+        .col-lg-6
+          p.mb-0 En las unidades productivas se debe contar con un botiquín para atender intoxicaciones por plaguicidas o sustancias peligrosas. Los operarios del predio deben contar con los equipos de protección adecuados (respirador, cascos, guantes y overol) para la manipulación de estos productos, según lo establecido por la normatividad vigente.
+
+        .d-none.d-lg-block.col-lg-6
+          figure
+            img(src='@/assets/curso/temas/tema3/46.png', alt='female-gardener-spraying-insecticide-plant')
+
+    h3(data-aos='zoom-in-right').mb-4
+      span.banana-title.banana-title--1 Peligros, controles y acciones correctivas en el uso de agroquímicos
+
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-lg-block.col-lg-3.col-xl-2
+        figure
+          img(src='@/assets/curso/temas/tema3/47.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-lg-7.col-xl-10
+        p.mb-0 El uso inadecuado de agroquímicos puede generar diversos riesgos, desde la contaminación del agua hasta la presencia de residuos químicos en el producto final. Para mitigar estos peligros, es fundamental implementar controles preventivos y acciones correctivas que garanticen un manejo seguro de estos productos. La siguiente tabla presenta los principales peligros identificados y las estrategias recomendadas para su control y corrección.
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 3.
+          span <em>Peligros y controles en el uso del agua.</em>
+        .tabla-peligros.mb-4
+          table.text-center
+            thead
+              tr
+                th Peligros
+                th Controles
+                th Acciones correctivas
+            tbody
+              tr
+                td Suelos pobres que no aporten los nutrientes que necesita el cultivo.<br><br>Usar sobredosis o subdosis de agroquímicos y pesticidas.<br><br>Que haya contaminación química en el plátano por mal uso de los plaguicidas en la producción.<br><br>Usar productos químicos vencidos en el cultivo de plátano puede poner en riesgo la salud del consumidor final.
+                td Realizar pruebas fisicoquímicas al agua para garantizar que sea segura para el cultivo.<br><br>Realizar un control de los agroquímicos almacenados descartando los que están vencidos y dando prioridad de uso a los próximos a vencer.<br><br>Almacenar	los productos químicos en lugares seguros, destinado sólo para ese fin.
+                td Disponer de otras fuentes de suministro de agua en caso de contaminación de las existentes.<br><br>Calibrar equipos y utilizar adecuadamente las boquillas de las máquinas fumigadoras.<br><br>Descartar los productos vencidos.<br><br>Realizar un control de calidad de los productos químicos antes de su uso.	Descartar el plátano contaminado.
+       
+    Separador
+
+    #t_3_7(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
+      h3 3.7 Abonos orgánicos
+    
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .d-none.d-lg-block.col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema3/48.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+      .col-lg-9
+        p El uso de abonos orgánicos en el cultivo de plátano, como la gallinaza y el lombricompuesto, contribuye a mejorar la fertilidad del suelo y la productividad del cultivo. Sin embargo, para garantizar la inocuidad del producto final, es fundamental que estos abonos estén libres de contaminación por metales pesados y otras sustancias que puedan comprometer la calidad del plátano.
+        p Para reducir el riesgo de contaminación microbiana en los abonos orgánicos, se deben considerar las siguientes recomendaciones:
+
+    
+    .row.justify-content-center.align-items-center
+      .col-lg-9
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--acento-contenido-a10")
+          .row(titulo="Verificación del registro ICA")
+            p Al adquirir abonos orgánicos, es imprescindible asegurarse de que cuenten con el registro del Instituto Colombiano Agropecuario (ICA), lo que certifica su calidad y seguridad para el uso agrícola.
+
+          .row(titulo="Proceso de elaboración adecuado")
+            p Se debe exigir que los fertilizantes orgánicos hayan pasado por un proceso de compostaje completo, garantizando su estabilidad y eficacia para el cultivo de plátano.
+
+          .row(titulo="Evitar el uso de estiércoles frescos")
+            p Los estiércoles sin tratamiento contienen una alta carga microbiana que puede afectar la sanidad del cultivo. Por ello, deben someterse a un proceso adecuado de compostaje antes de su aplicación.
+
+          .row(titulo="Almacenamiento seguro")
+            .col-md-6
+              p Los abonos orgánicos deben resguardarse en un área separada de la unidad productiva para prevenir la contaminación cruzada con el cultivo.
+
+          .row(titulo="Control de calidad en producción propia")
+            .col-md-6
+              p Si los abonos orgánicos se elaboran dentro del predio, es necesario llevar un registro detallado del proceso de transformación y realizar pruebas microbiológicas que confirmen la ausencia de patógenos como Salmonella, Escherichia coli y Enterobacter
+
+      .d-none.d-lg-block.col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema3/49.png', alt='Manos recolectando arena')(data-aos="fade-up")
+
+    .m-footer
+
 </template>
 
 <script>
