@@ -146,25 +146,61 @@
         .square-card.bg-color-terciario-t20
           .square-card__img
             figure
-              img(src='@/assets/curso/temas/tema3/10.png', alt='Carros transportadores')(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema3/11.png', alt='Carros transportadores')(data-aos="zoom-in")
           .square-card__text
             h4 Carros transportadores 
       .col-md-6.col-lg-4.col-xl-3
         .square-card.bg-color-terciario-t20
           .square-card__img
             figure
-              img(src='@/assets/curso/temas/tema3/10.png', alt='Balanzas')(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema3/12.png', alt='Balanzas')(data-aos="zoom-in")
           .square-card__text
             h4 Balanzas
       .col-lg-12.col-xl-5.pb-3
         .square-card.bg-color-acento-contenido.h-100.mb-3
           p Cada uno de estos implementos cumple una función específica en el proceso agrícola, desde la preparación del terreno y el manejo del cultivo hasta la cosecha y el transporte del producto. Su correcto uso y mantenimiento no solo optimiza la eficiencia en las labores diarias, sino que también garantiza la seguridad de los trabajadores y la calidad del producto final.
 
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-xl-10
         h5(data-aos='zoom-in-right').mb-4 Recomendaciones a tener en cuenta 
         p El correcto manejo de herramientas y equipos en la producción agrícola es esencial para garantizar la seguridad de los trabajadores, la eficiencia en las labores y la inocuidad de los productos. A continuación, se presentan algunas recomendaciones para su uso adecuado:
 
+    .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
+      .col-sm-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta--boton.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/13.svg', alt='Ilustración decorativa')
+
+          p.text-center.mb-0 Los equipos y herramientas deben ser de materiales resistentes, seguros para los trabajadores y garantizar la inocuidad de los productos durante su uso.
+
+      .col-sm-6.col-lg-3.mb-3.mb-lg-0
+        .tarjeta--boton.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/14.svg', alt='Ilustración decorativa')
+
+          p.text-center.mb-0 Es fundamental realizar mantenimiento preventivo a equipos como termómetros, altímetros y aspersores para asegurar su correcto funcionamiento y prolongar su vida útil.
+
+      .col-sm-6.col-lg-3.mb-3.mb-sm-0
+        .tarjeta--boton.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/15.svg', alt='Ilustración decorativa')
+
+          p.text-center.mb-0 Se deben llevar registros detallados de limpieza y desinfección de herramientas, especificando el desinfectante utilizado, su concentración y la persona responsable del procedimiento.
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/50.svg', alt='Ilustración decorativa')
+
+          p.text-center.mb-0 Después de cada uso, todos los equipos, utensilios y herramientas deben ser higienizados para prevenir la contaminación y garantizar condiciones óptimas de trabajo.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-10.col-xl-8
