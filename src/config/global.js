@@ -180,27 +180,53 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Cultivo del plátano.',
+      referencia: 'Ecosistema recursos SENA [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=gD0ZtMwN5zI',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cultivo',
+      significado:
+        'este cultivo implica una serie de prácticas que incluyen la selección del terreno adecuado, la preparación del suelo, la siembra de hijuelos, el riego, la fertilización, el control de plagas y enfermedades, y la cosecha de los frutos. ',
+    },
+    {
+      termino: 'Plátano',
+      significado:
+        'el plátano es una fruta tropical que pertenece al género Musa. Se caracteriza por su forma alargada y curvada, con una piel amarilla, verde o roja, dependiendo de la variedad. El plátano es conocido por su pulpa suave y dulce, que es rica en nutrientes como potasio, fibra y vitaminas.',
+    },
+    {
+      termino: 'Nutrientes',
+      significado:
+        'los nutrientes del plátano son los componentes esenciales que contribuyen a su valor nutricional y que son beneficiosos para la salud humana.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Buenas Prácticas Agrícolas para frutas, hierbas aromáticas culinarias y hortalizas frescas (NTC 5400). (2005, 27 de julio). Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), 2005, 02 de agosto.',
+      link: '',
+    },
+    {
+      referencia:
+        'Japan International Cooperation Agency. (2011). Guía de extensión. (2a Ed.). Panamá: Autoridad Nacional del Ambiente.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural. (2004). Plan nacional para la implementación de Buenas Prácticas Agrícolas. ',
+      link: 'https://www.agronet.gov.co/Paginas/inicio.aspx',
+    },
+    {
+      referencia:
+        'Moreno, J. (2009). Buenas Prácticas Agrícolas en el cultivo de plátano. Medellín, Colombia: Comunicaciones Augura.',
+      link: '',
+    },
+    {
+      referencia:
+        'Moreno, J., Candanoza, J. y Olarte, F. (2009). Buenas Prácticas Agrícolas en el de cultivo de plátano exportación en la región de Urabá. Medellín, Colombia: Comunicaciones Augura.',
       link: '',
     },
   ],
@@ -239,7 +265,7 @@ export default {
           centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro XYZ - Regional XYZ',
         },
@@ -266,10 +292,4 @@ export default {
       ],
     },
   ],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
-  },
 }
