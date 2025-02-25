@@ -17,288 +17,224 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Buenas prácticas.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar buenas prácticas del cultivo del plátano.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Al cultivo de plátano se le debe realizar una serie de prácticas culturales para evitar problemas fitosanitarios.',
+          imagen: require('@/assets/actividad/1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'La planta de plátano se debe mantener libre de malezas porque estas compiten con el cultivo principal por nutrientes, agua y luz.',
+          imagen: require('@/assets/actividad/2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'Cuando las plantas de plátano son pequeñas tienen más espacio y se puede poblar de malezas a su alrededor con facilidad.',
+          imagen: require('@/assets/actividad/3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Verdadero',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Falso',
               esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Control químico: este se aplica de manera selectiva en las plataneras que son comerciales.',
+          imagen: require('@/assets/actividad/3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'd',
-              texto: '<em>Route</em>',
+              id: 'b',
+              texto: 'False',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'Control biológico: este se realiza utilizando insectos, hongos y/o bacterias para el control de enfermedades y plagas del cultivo.',
+          imagen: require('@/assets/actividad/2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'False',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'El plateo es una técnica que se le realiza al plátano y consiste en mantener el plato de la planta llena de malezas.',
+          imagen: require('@/assets/actividad/1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'False',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'Desmanche es una técnica que consiste en extraer todos los colinos que surgieron de la planta madre porque afectan su desarrollo debido a la competencia de luz, agua y nutrientes',
+          imagen: require('@/assets/actividad/4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              id: 'b',
+              texto: 'False',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'Deshoje es una labor que consiste en secar las hojas, dobladas y las que se encuentran en la parte de debajo de la planta.',
+          imagen: require('@/assets/actividad/4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Verdadero',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'False',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'En el cultivo de plátano se hace necesario el manejo de plagas mediante mecanismos como control biológico o mecánico.',
+          imagen: require('@/assets/actividad/5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'False',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'El proceso de cosecha en fincas plataneras está conformado por tres operaciones importantes tales como el corte de los racimos, el transporte y el empacado.',
+          imagen: require('@/assets/actividad/5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -308,122 +244,20 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'False',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
