@@ -29,7 +29,7 @@
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/1.png', alt='Mujer cargando gajo de plátano')(data-aos="fade-up")
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.retos-items.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.retos-items
       .col-md-6.col-lg-4.col-xl-3.mb-5.mb-xl-0
         .retos-items__card.retos-items__card--1.bg-color-acento-contenido
           p.mb-0 Los costos iniciales de implementación.
@@ -96,7 +96,7 @@
     h4(data-aos='zoom-in-right').mb-3
       span.banana-title.banana-title--2 Desventajas
 
-    .row.justify-content-center.align-items-center.mb-3.mb-lg-4.platano-timeline
+    .row.justify-content-center.align-items-center.platano-timeline
       .col-10.col-lg-5.align-content-center
         figure
           img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/7.png', alt='Mujer recolectando plátanos')
@@ -161,7 +161,7 @@
 
         h5(data-aos='zoom-in-right') A continuación, se presentan algunos elementos clave de la implementación de las BPA:
 
-    SlyderA(tipo="b").custom-slider-a-b.rounded-4.mb-4.mb-lg-5
+    SlyderA(tipo="b").custom-slider-a-b.rounded-4
       .row.align-items-center.custom-slider-a-b__item
         .col-lg-6
           h5 Mejora en la percepción del producto

@@ -109,7 +109,7 @@ export default {
           },
           {
             numero: '3.7',
-            titulo: '3.7.	Abonos orgánicos',
+            titulo: 'Abonos orgánicos',
             hash: 't_3_7',
           },
         ],

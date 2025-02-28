@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 4.	Peligros, controles y manejo de residuos líquidos
+      h1 Peligros, controles y manejo de residuos líquidos
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center
       .col-lg-9
         p.mb-3.mb-xl-0 La producción agrícola sostenible exige una gestión responsable de los riesgos y un adecuado manejo de los residuos generados en el proceso productivo. En el cultivo del plátano, los residuos líquidos representan una fuente potencial de contaminación que puede afectar tanto la salud humana como el equilibrio ambiental. Esta sección examina los principales peligros asociados a su generación, destacando la importancia de implementar medidas preventivas y de control para mitigar su impacto. Además, se presentan estrategias orientadas a reducir la contaminación, optimizar el uso del agua y garantizar el cumplimiento de la normativa ambiental vigente.
       .col-6.col-lg-3
@@ -21,7 +21,7 @@
 
     p El manejo inadecuado de los residuos agrícolas puede generar contaminación en los cultivos y afectar la calidad del producto final. Identificar los principales peligros y aplicar controles efectivos es fundamental para prevenir riesgos ambientales y garantizar la seguridad del proceso productivo. La siguiente tabla presenta algunos de los peligros asociados a la contaminación y las medidas de control recomendadas.
     
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center
       .d-none.d-xl-block.col-xl-3
         figure
           img.mb-4.mb-xl-0(src='@/assets/curso/temas/tema4/2.png', alt='Ilustración decorativa')(data-aos="fade-up")

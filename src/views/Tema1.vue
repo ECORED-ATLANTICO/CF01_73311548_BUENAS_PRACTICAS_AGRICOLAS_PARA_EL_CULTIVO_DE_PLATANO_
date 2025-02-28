@@ -23,7 +23,7 @@
 
       .row.justify-content-center.mb-4.mb-lg-5
         .col-lg-10
-          .row.justify-content-center.align-items-center.quote-simple.bg-color-secundario
+          .row.justify-content-center.align-items-center.quote-simple.bg-color-terciario-t10
             .col-10
               p.mb-0 Las Buenas Prácticas Agrícolas (BPA), corresponden a un compendio de lineamientos y normativas que pretenden orientar a los productores de hortalizas y todos los productos alimenticios de origen agrícola, hacia una metodología de producción y manipulación de los alimentos que garantice la inocuidad del producto final.
             .col-2
@@ -57,9 +57,8 @@
             h5 Figura 1.
             span <em>Lineamientos de las BPA</em>
           img(data-aos="fade-up")(src="@/assets/curso/temas/tema1/6.png", alt="La figura presenta la integración tres lineamientos clave, que destacan para garantizar la calidad de las Buenas Prácticas Agrícolas, como son, protección sanitaria, inocuidad de alimentos y sostenibilidad ambiental.")
-          figcaption SENA 2024
 
-      .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center
         .col-lg-10
           p.mb-0 Las BPA están diseñadas para regir tanto en el sector privado como en el público, ambos deben interactuar en la construcción de directrices de gestión, que controlen los sistemas de producción, basándose siempre en los tres principios de las BPA; a continuación, se describen cada uno de estos lineamientos.
 
@@ -149,7 +148,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Para el control de insectos en el cultivo de plátano, una opción efectiva es el control biológico de plagas, que consiste en introducir voluntariamente especies de insectos que sean enemigos naturales de las plagas sin representar un riesgo para el cultivo. Por ejemplo, cuando un cultivo es atacado por gusanos, se pueden emplear ciertas especies de arañas para combatirlos de manera natural.
 
-      .row.justify-content-center.mb-3.mb-lg-4
+      .row.justify-content-center
         .col-6.col-md-3.align-content-center.d-none.d-xl-block(data-aos="fade-left")
           figure
             img.mb-3.mb-lg-4(src="@/assets/curso/temas/tema1/13.jpg", alt="Imagen decorativa")
@@ -160,7 +159,7 @@
 
           p <strong>A continuación, se presentan algunos de los principales riesgos en la producción de plátano:</strong>
 
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--terciario-t10")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--terciario-t10 acordion-color-terciario")
             .row.justify-content-center(titulo="Microbiológicos")
               .col-lg-8
                 .align-content-center
@@ -191,7 +190,7 @@
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
         span.banana-title.banana-title--1 Protección sanitaria
       
-      .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-sanitaria
         .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/17.png', alt='Ilustración decorativa')(data-aos="fade-up")

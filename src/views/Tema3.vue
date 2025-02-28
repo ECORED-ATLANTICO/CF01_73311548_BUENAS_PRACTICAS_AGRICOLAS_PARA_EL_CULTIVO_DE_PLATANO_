@@ -7,7 +7,7 @@
         span 3
       h1 Requisitos para la implementación
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-lg-5.mb-4.mb-lg-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-lg-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/1.jpg')})`}"
       )
@@ -24,7 +24,7 @@
     .row.align-items-center.mb-4.mb-lg-5
       .d-none.d-lg-block.col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema3/2.svg', alt='Ilustración decorativa')(data-aos="fade-up")
+          img(src='@/assets/curso/temas/tema3/2.png', alt='Ilustración decorativa')(data-aos="fade-up")
       .col-lg-9
         TabsA.mb-5.banana-tabs-a
           .tarjeta.bg-color-terciario.p-4.h-100.banana-tabs-a__tarjeta(titulo="Zona de recepción")
@@ -218,7 +218,7 @@
         h5(data-aos='zoom-in-right').mb-4 Peligros y controles de los equipos, utensilios y herramientas
         p El uso de equipos, utensilios y herramientas en la producción de plátano implica riesgos que pueden afectar tanto la calidad del producto como la seguridad de los trabajadores. Una gestión inadecuada de estos elementos puede generar contaminación, errores en los procesos y afectaciones en la inocuidad del cultivo. Para minimizar estos peligros, es fundamental establecer controles que garanticen la correcta higienización, almacenamiento y mantenimiento de los equipos. La siguiente tabla presenta los principales riesgos asociados y las medidas preventivas recomendadas para su control.
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 1.
@@ -245,7 +245,7 @@
     #t_3_2(data-aos='zoom-in-right').titulo-segundo.color-acento-contenido
       h3 3.2 Instalaciones Materias primas e insumos agrícolas
       
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-lg-5.mb-4.mb-lg-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-lg-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/18.jpg')})`}"
       )
@@ -300,7 +300,7 @@
             h3.text-center.mt-5 Niveles de cloro
             p.text-center La concentración de cloro residual en la red de distribución debe mantenerse entre 0,3 y 0,5 partes por millón (ppm). En ningún caso debe descender por debajo de 0,1 ppm, ya que esto comprometería la calidad sanitaria del agua.
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center
       .col-xl-10
         h3(data-aos='zoom-in-right').mb-4
           span.banana-title.banana-title--1 Peligros y controles en el uso del agua
@@ -483,7 +483,7 @@
                 h3.factores-slider__number.color-acento-contenido Protección contra patógenos
                 p.mb-0 Se recomienda sumergir las semillas en agua caliente por un tiempo breve y aplicar fungicidas e insecticidas para reducir el riesgo de plagas y enfermedades.
         
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center
       .col-xl-10
         h3(data-aos='zoom-in-right').mb-4
           span.banana-title.banana-title--1 Peligros y controles de las semillas
