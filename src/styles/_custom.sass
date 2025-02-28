@@ -1,36 +1,58 @@
-.banner-principal
-  overflow: hidden
-  background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center center
-  border-radius: 26px
+// .banner-principal
+//   overflow: hidden
+//   background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
+//   background-repeat: no-repeat
+//   background-size: cover
+//   background-position: center center
+//   border-radius: 26px
 
-  &__info
-    padding-top: 48px !important
-    padding-bottom: 78px !important
-    padding-left: 42px !important
-    padding-right: 42px !important
+//   &__info
+//     padding-top: 48px !important
+//     padding-bottom: 78px !important
+//     padding-left: 42px !important
+//     padding-right: 42px !important
 
 
-@media (min-width: 426px)
-  .banner-principal
-    background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
-    padding-right: 120px
+// @media (max-width: 768px)
+//   .banner-principal
+//     background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
 
-@media (min-width: 1023px)
- .banner-principal
-    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
-    padding-right: 0
+// @media (min-width: 426px)
+//   .banner-principal
+//     padding-right: 120px
 
-.banner-principal .banner-principal__info
-  padding-left: 24px !important
-  padding-right: 24px !important
-  padding-bottom: 48px !important
+// @media (min-width: 769px)
+//  .banner-principal
+//     background-image: none !important
+//     padding-right: 0
+
+
+// .banner-principal .banner-principal__info
+//   padding-left: 24px !important
+//   padding-right: 24px !important
+//   padding-bottom: 48px !important
+
+// @media (max-width: 768px)
+//   .banner-principal .tarjeta
+//     background-color: unset
+//     background-image: none !important
 
 .banner-principal .tarjeta
-  background-color: unset
-  background-image: none !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
+
+@media (min-width: 426px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+    padding-right: 130px
+
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
+
+@media (min-width: 1023px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
 
 .banner-principal-decorativo
   &-1
@@ -43,7 +65,7 @@
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 0
-    right: 0
+    right: 10px
     width: 100px
 
 .banner-principal__row 
