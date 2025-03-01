@@ -1,42 +1,3 @@
-// .banner-principal
-//   overflow: hidden
-//   background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
-//   background-repeat: no-repeat
-//   background-size: cover
-//   background-position: center center
-//   border-radius: 26px
-
-//   &__info
-//     padding-top: 48px !important
-//     padding-bottom: 78px !important
-//     padding-left: 42px !important
-//     padding-right: 42px !important
-
-
-// @media (max-width: 768px)
-//   .banner-principal
-//     background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
-
-// @media (min-width: 426px)
-//   .banner-principal
-//     padding-right: 120px
-
-// @media (min-width: 769px)
-//  .banner-principal
-//     background-image: none !important
-//     padding-right: 0
-
-
-// .banner-principal .banner-principal__info
-//   padding-left: 24px !important
-//   padding-right: 24px !important
-//   padding-bottom: 48px !important
-
-// @media (max-width: 768px)
-//   .banner-principal .tarjeta
-//     background-color: unset
-//     background-image: none !important
-
 .banner-principal .tarjeta
   background-image: url('../assets/curso/portada/fondo-banner-principal-mobile.png') !important
 
@@ -96,15 +57,17 @@ figcaption
   font-weight: normal
 
 //Estilos para los temas
-.p-decorado-izq
-  padding-left: 100px
-  position: relative
-  &::before
-    content: url('../assets/curso/temas/tema1/1.svg')
-    position: absolute
-    top: 10px
-    left: 0
-  
+
+@media(min-width: 426px)
+  .p-decorado-izq
+    padding-left: 100px
+    position: relative
+    &::before
+      content: url('../assets/curso/temas/tema1/1.svg')
+      position: absolute
+      top: 10px
+      left: 0
+
 .quote-simple
   padding: 25px
 
@@ -437,9 +400,6 @@ figcaption
       left: 35px
       transform: translate(-50%, -45%)
 
-.platano-timeline
-  .linea-tiempo-d__item__content
-    background-color: #F7FEE7
 
 .time-line-info
   .tarjeta

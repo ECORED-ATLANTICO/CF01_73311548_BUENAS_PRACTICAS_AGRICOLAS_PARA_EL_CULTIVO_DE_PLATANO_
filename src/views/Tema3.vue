@@ -224,7 +224,7 @@
             h5 Tabla 1.
             span <em>Peligros y controles de los equipos, utensilios y herramientas.</em>
         .tabla-peligros.mb-4
-          table.text-center
+          table.overflow-auto.text-center
             thead
               tr
                 th Peligro
@@ -312,7 +312,7 @@
           span <em>Peligros y controles en el uso del agua.</em>
 
         .tabla-peligros.mb-4
-          table.text-center
+          table.overflow-auto.text-center
             thead(style="background-color: #7D9FFB;color: white;")
               tr
                 th Peligro
@@ -391,7 +391,7 @@
           h5 Tabla 3.
           span <em>Peligros y controles en el uso del agua.</em>
         .tabla-peligros.mb-4
-          table.text-center
+          .overflow-auto.text-center
             thead
               tr
                 th Peligros
@@ -495,7 +495,7 @@
           span <em>Peligros y controles de las semillas.</em>
 
         .tabla-peligros.mb-4
-          table.text-center
+          .overflow-auto.text-center
             thead(style="background-color: #7D9FFB;color: white;")
               tr
                 th Peligros
@@ -587,10 +587,10 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 3.
+          h5 Tabla 5.
           span <em>Peligros y controles en el uso del agua.</em>
         .tabla-peligros.mb-4
-          table.text-center
+          table.overflow-auto.text-center
             thead
               tr
                 th Peligros

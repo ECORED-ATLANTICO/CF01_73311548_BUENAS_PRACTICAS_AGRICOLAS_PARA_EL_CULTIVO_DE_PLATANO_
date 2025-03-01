@@ -60,7 +60,7 @@
     
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.platano-timeline
       .col-lg-9
-        LineaTiempoD.color-secundario.mt-3.mb-4.mb-lg-0
+        LineaTiempoD.color-terciario.mt-3.mb-4.mb-lg-0
           .row(numero="1" titulo="Acceso a mercados exigentes")
             .mb-4.mb-lg-0
               p La implementación de BPA facilita la exportación a mercados que requieren altos estándares de calidad e inocuidad, lo que abre nuevas oportunidades comerciales y mejora los precios de venta. Cada vez más países exigen estas certificaciones para permitir la comercialización de productos agrícolas.
@@ -102,7 +102,7 @@
           img.mb-4.mb-lg-0(data-aos="fade-up")(src='@/assets/curso/temas/tema2/7.png', alt='Mujer recolectando plátanos')
 
       .col-lg-7
-        LineaTiempoD.color-secundario.mt-3
+        LineaTiempoD.color-terciario.mt-3
           .row(numero="1" titulo="Altos costos iniciales")
             .mb-4.mb-lg-0
               p La adopción de BPA requiere una inversión considerable en certificación, infraestructura y adecuación de procesos.
@@ -267,7 +267,7 @@
           h5 Figura 2.
           span <em>Croquis de finca.</em>
         img(data-aos="fade-up")(src="@/assets/curso/temas/tema2/16.png", alt="La figura presenta la integración tres lineamientos clave, que destacan para garantizar la calidad de las Buenas Prácticas Agrícolas, como son, protección sanitaria, inocuidad de alimentos y sostenibilidad ambiental.")
-        figcaption Nota. Fuente: Japan International Cooperation Agency (2011).
+        figcaption <strong>Nota.</strong> Japan International Cooperation Agency (2011).
 
     Separador
 

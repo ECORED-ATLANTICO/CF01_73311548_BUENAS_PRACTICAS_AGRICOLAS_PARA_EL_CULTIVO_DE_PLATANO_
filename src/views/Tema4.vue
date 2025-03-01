@@ -31,7 +31,7 @@
             span <em>Peligros y controles en el manejo de residuos.</em>
 
         .tabla-peligros.mb-4
-          table.text-center
+          table.overflow-auto.text-center
             thead
               tr
                 th Peligro
@@ -86,41 +86,41 @@
       .py-4.py-md-5(titulo="Productos vencidos" :icono="require('@/assets/curso/temas/tema4/5.svg')")
         .row.align-items-center
           .col-lg-6.col-xl-5.mb-4.mb-md-0
-            p.mb-0 Deben almacenarse en estanterías exclusivas, debidamente señalizadas con un letrero de "Productos vencidos" y resguardadas bajo llave para evitar su uso indebido. 
+            p.mb-4.mb-lg-0 Deben almacenarse en estanterías exclusivas, debidamente señalizadas con un letrero de "Productos vencidos" y resguardadas bajo llave para evitar su uso indebido. 
         
-          .d-none.d-lg-block.col-lg-6.col-xl-7
+          .col-lg-6.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema4/10.png', alt='Productos varios')(data-aos="fade-up")
-      .py-4.py-md-5(titulo="Productos vencidos" :icono="require('@/assets/curso/temas/tema4/6.svg')")
+      .py-4.py-md-5(titulo="Recipientes vacíos" :icono="require('@/assets/curso/temas/tema4/6.svg')")
         .row.align-items-center
           .col-lg-6.col-xl-5.mb-4.mb-md-0
-            p.mb-0 No deben reutilizarse. Es necesario perforarlos sin dañar las etiquetas para evitar su uso inapropiado.
+            p.mb-4.mb-lg-0 No deben reutilizarse. Es necesario perforarlos sin dañar las etiquetas para evitar su uso inapropiado.
         
-          .d-none.d-lg-block.col-lg-6.col-xl-7
+          .col-lg-6.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema4/11.png', alt='Productos varios')(data-aos="fade-up")
-      .py-4.py-md-5(titulo="Productos vencidos" :icono="require('@/assets/curso/temas/tema4/7.svg')")
+      .py-4.py-md-5(titulo="Envases de agroquímicos" :icono="require('@/assets/curso/temas/tema4/7.svg')")
         .row.align-items-center
           .col-lg-6.col-xl-5.mb-4.mb-md-0
-            p.mb-0 Son considerados residuos peligrosos, no pueden desecharse como basura convencional. Deben someterse a un proceso de triple lavado antes de su disposición final.
+            p.mb-4.mb-lg-0 Son considerados residuos peligrosos, no pueden desecharse como basura convencional. Deben someterse a un proceso de triple lavado antes de su disposición final.
         
-          .d-none.d-lg-block.col-lg-6.col-xl-7
+          .col-lg-6.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema4/12.png', alt='Productos varios')(data-aos="fade-up")
-      .py-4.py-md-5(titulo="Productos vencidos" :icono="require('@/assets/curso/temas/tema4/8.svg')")
+      .py-4.py-md-5(titulo="Transporte de agroquímicos" :icono="require('@/assets/curso/temas/tema4/8.svg')")
         .row.align-items-center
           .col-lg-6.col-xl-5.mb-4.mb-md-0
-            p.mb-0 Se deben trasladar en sus envases originales con etiquetas visibles, evitando golpes o rupturas que puedan ocasionar derrames. Este procedimiento debe cumplir con la normativa vigente sobre el transporte de sustancias peligrosas.
+            p.mb-4.mb-lg-0 Se deben trasladar en sus envases originales con etiquetas visibles, evitando golpes o rupturas que puedan ocasionar derrames. Este procedimiento debe cumplir con la normativa vigente sobre el transporte de sustancias peligrosas.
         
-          .d-none.d-lg-block.col-lg-6.col-xl-7
+          .col-lg-6.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema4/13.png', alt='Productos varios')(data-aos="fade-up")
-      .py-4.py-md-5(titulo="Productos vencidos" :icono="require('@/assets/curso/temas/tema4/9.svg')")
+      .py-4.py-md-5(titulo="Derrames" :icono="require('@/assets/curso/temas/tema4/9.svg')")
         .row.align-items-center
           .col-lg-6.col-xl-5.mb-4.mb-md-0
-            p.mb-0 En caso de un derrame, es fundamental consultar de inmediato la hoja de datos de seguridad del producto y seguir las instrucciones documentadas para su manejo seguro.
+            p.mb-4.mb-lg-0 En caso de un derrame, es fundamental consultar de inmediato la hoja de datos de seguridad del producto y seguir las instrucciones documentadas para su manejo seguro.
         
-          .d-none.d-lg-block.col-lg-6.col-xl-7
+          .col-lg-6.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema4/14.png', alt='Productos varios')(data-aos="fade-up")
 

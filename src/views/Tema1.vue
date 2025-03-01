@@ -24,9 +24,9 @@
       .row.justify-content-center.mb-4.mb-lg-5
         .col-lg-10
           .row.justify-content-center.align-items-center.quote-simple.bg-color-terciario-t10
-            .col-10
+            .col-12.order-1.col-md-10.order-md-0
               p.mb-0 Las Buenas Prácticas Agrícolas (BPA), corresponden a un compendio de lineamientos y normativas que pretenden orientar a los productores de hortalizas y todos los productos alimenticios de origen agrícola, hacia una metodología de producción y manipulación de los alimentos que garantice la inocuidad del producto final.
-            .col-2
+            .col-7.mb-4.col-md-2
               figure
                 img.width-93(src='@/assets/curso/temas/tema1/3.svg', alt='Ilustración decorativa')
 
@@ -254,7 +254,7 @@
                   figure
                     img.width-110(src='@/assets/curso/temas/tema1/26.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
   
-              .col-sm-6.col-lg-7
+              .col-sm-6.col-lg-7.text-start
                 h3 Uso eficiente del recurso hídrico
                 p Implementar estrategias para el aprovechamiento racional del agua en las actividades agrícolas, ya sea a través de procesos de capacitación y sensibilización o mediante la adopción de tecnologías innovadoras que optimicen su uso y reduzcan el desperdicio.
                 
@@ -275,7 +275,7 @@
                   figure
                     img.width-110(src='@/assets/curso/temas/tema1/28.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
               
-              .col-sm-6.col-lg-7
+              .col-sm-6.col-lg-7.text-start
                 h3 Sistema de indicadores de gestión ambiental
                 p Definir e implementar un sistema basado en indicadores de gestión ambiental que permita el seguimiento, control y planificación de la Política de Producción más Limpia, facilitando la toma de decisiones fundamentadas en datos objetivos.
 
@@ -295,7 +295,7 @@
                   figure
                     img.width-110(src='@/assets/curso/temas/tema1/30.svg', alt='Imagen de acompañamiento')(data-aos="fade-up")
 
-              .col-sm-6.col-lg-7
+              .col-sm-6.col-lg-7.text-start
                 h3 Protección y conservación de ecosistemas
                 p Desarrollar y aplicar prácticas orientadas a la preservación y restauración de ecosistemas naturales, asegurando su sostenibilidad y la continuidad de los servicios ambientales que brindan. (Ministerio de Agricultura y Desarrollo Rural, 2004, p. 7).
             
