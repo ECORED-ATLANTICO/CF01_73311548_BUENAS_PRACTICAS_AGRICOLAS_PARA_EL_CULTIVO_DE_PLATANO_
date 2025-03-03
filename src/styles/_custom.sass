@@ -278,9 +278,10 @@ figcaption
   
 // Tabla
 
-.tabla-peligros
-  border-collapse: collapse;
-  overflow-x: scroll
+.tabla-d
+  border-collapse: collapse
+  overflow-x: auto
+  box-shadow: none
 
   thead
     background-color: $color-terciario
@@ -291,7 +292,7 @@ figcaption
       text-align: center
   
   td, th 
-    border: 1px solid $color-primario;
+    border: 1px solid $color-primario
     padding: 15px 20px
     text-align: start
   
@@ -425,11 +426,11 @@ figcaption
   border-radius: 20px 0 20px 0
 
 .bg-sanitaria
-  position: relative
-  &::before
-    content: url('../assets/curso/temas/tema1/bg-seccion.png')
-    position: absolute
-    top: 0
+  height: 100%
+  position: absolute
+  background-image: url('../assets/curso/temas/tema1/bg-seccion.png')
+  width: 100%
+  top: 0
 
 
 .m-footer

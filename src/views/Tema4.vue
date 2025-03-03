@@ -30,19 +30,19 @@
             h5 Tabla 6.
             span <em>Peligros y controles en el manejo de residuos.</em>
 
-        .tabla-peligros.mb-4
-          table.overflow-auto.text-center
-            thead
-              tr
-                th Peligro
-                th Control
-            tbody
-              tr
-                td Que los fertilizantes estén mal compostados,	ocasionando contaminación al cultivo.
-                td Solicitar comprobante de elaboración del producto y verificar que este tenga el registro otorgado por las autoridades competentes.
-              tr
-                td Que haya contaminación cruzada entre productos frescos y compostados.
-                td Realizar un buen almacenamiento de los fertilizantes orgánicos.
+        
+        table.tabla-d.mb-4.text-center
+          thead
+            tr
+              th Peligro
+              th Control
+          tbody
+            tr
+              td Que los fertilizantes estén mal compostados,	ocasionando contaminación al cultivo.
+              td Solicitar comprobante de elaboración del producto y verificar que este tenga el registro otorgado por las autoridades competentes.
+            tr
+              td Que haya contaminación cruzada entre productos frescos y compostados.
+              td Realizar un buen almacenamiento de los fertilizantes orgánicos.
 
         p.mb-0 Con el manejo ambiental se busca garantizar la sostenibilidad y competitividad en la unidad agrícola. Las etapas de proceso que puedan generar impacto ambiental deben registrarse, por esta razón, es importante diseñar medidas preventivas y de control en cuanto a los requerimientos ambientales legales.
 

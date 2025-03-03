@@ -190,7 +190,7 @@
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
         span.banana-title.banana-title--1 Protección sanitaria
       
-      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.bg-sanitaria
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.position-relative
         .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/17.png', alt='Ilustración decorativa')(data-aos="fade-up")
@@ -221,6 +221,7 @@
           .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
             h3.text-center.mt-5 Niveles de tratamiento
             p.text-center Determinar y aplicar niveles de tratamiento específicos para cada tipo de plaga y enfermedad dentro de las actividades productivas, asegurando un manejo eficiente y sostenible.
+      .bg-sanitaria
           
       Separador
 
