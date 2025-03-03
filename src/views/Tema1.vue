@@ -186,11 +186,12 @@
                   img.rounded-5(src='@/assets/curso/temas/tema1/14.png', alt='Ilustración decorativa')
 
       Separador
+      .bg-sanitaria
 
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
         span.banana-title.banana-title--1 Protección sanitaria
       
-      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.position-relative
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-10
         .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/tema1/17.png', alt='Ilustración decorativa')(data-aos="fade-up")
@@ -200,7 +201,7 @@
           p Estos modelos de prevención son requisitos en muchos mercados para la realización de intercambios comerciales. Además, se exige a los productores garantizar un uso eficiente y responsable de los insumos agrícolas.
           p Los sistemas de protección sanitaria están conformados por acciones dirigidas a controlar las condiciones de salubridad del alimento. Para lograrlo, se recomienda tener en cuenta las siguientes medidas:
 
-      .mt-5.custom-slider
+      .mt-5.custom-slider.z-10
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--1
             h3.text-center.mt-5 Productos agroquímicos
@@ -221,14 +222,14 @@
           .tarjeta.tarjeta--acento-contenido-claro.p-4.rounded-5.custom-slider__tarjeta.custom-slider__tarjeta--5
             h3.text-center.mt-5 Niveles de tratamiento
             p.text-center Determinar y aplicar niveles de tratamiento específicos para cada tipo de plaga y enfermedad dentro de las actividades productivas, asegurando un manejo eficiente y sostenible.
-      .bg-sanitaria
-          
+
+
       Separador
 
       h3(data-aos='zoom-in-right').mb-4.mb-lg-5
         span.banana-title.banana-title--1 Sostenibilidad ambiental
 
-      .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-10
         .col-lg-9
           p Cuando la actividad agrícola se desarrolla bajo los lineamientos de las Buenas Prácticas Agrícolas (BPA), debe orientarse hacia una producción responsable, promoviendo un compromiso integral con la protección y el manejo sostenible del medio ambiente. Este enfoque además de responder a la necesidad de preservar los recursos naturales, también se alinea con las políticas nacionales de producción limpia, cuyo objetivo es minimizar el impacto ambiental y optimizar el uso de insumos.
           p Para garantizar una producción sostenible y amigable con el entorno, es fundamental implementar estrategias que fomenten el equilibrio entre la productividad agrícola y la conservación de los ecosistemas. Entre las principales estrategias para la producción limpia se destacan las siguientes:
@@ -237,7 +238,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/24.png', alt='Ilustración decorativa')(data-aos="fade-up")
 
-      .row.justify-content-center
+      .row.justify-content-center.z-10
         .col-xl-10
           PasosA.color-acento-contenido.mb-5(tipo="n")
             .row.align-items-center.justify-content-center.py-lg-5
@@ -301,7 +302,6 @@
                 p Desarrollar y aplicar prácticas orientadas a la preservación y restauración de ecosistemas naturales, asegurando su sostenibilidad y la continuidad de los servicios ambientales que brindan. (Ministerio de Agricultura y Desarrollo Rural, 2004, p. 7).
             
       .m-footer
-
 
 
   </template>
